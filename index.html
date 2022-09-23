@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+      <!-- Meta tags Obrigatórias -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <link rel="stylesheet" href="./index.css">
+      <title>JFK Turismo</title>
+    </head>
+    <body>
+      <header>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+          <a class="navbar-brand" href="#">JFK</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(Página atual)</span></a>
+              </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Pacotes
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Campo</a>
+                  <a class="dropdown-item" href="#">Cidade</a>
+                  <a class="dropdown-item" href="#">Internacionais</a>
+                  <a class="dropdown-item" href="#">Praia</a>
+                  <a class="dropdown-item" href="#">Serra</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Minha Conta</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <section>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="./img/slide1.png" alt="Primeiro Slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h2>Sonha em conhecer uma bela praia? ...</h2>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/slide2.png" alt="Segundo Slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h2>... Ou os agitos de Nova York? ...</h2>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/slide3.png" alt="Terceiro Slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h2>... Quem sabe, Veneza? ...</h2>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/slide4.png" alt="Quarto Slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h2>... Ou ainda a calmaria e os luxos de Mônaco?</h2>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+          </a>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="row">
+            
+            <div class="col-md-4 col-sm-6 pacote">
+              <a href="#" class="link-pacote" data-toggle="modal" data-target="#modalExemplo">
+                <img src="./img/pacote1.png" class="img-responsive">
+              Pacote 1</a>
+            </div>
+            <div class="col-md-4 col-sm-6 pacote">
+              <a href="#" class="link-pacote" data-toggle="modal" data-target="#modalExemplo">
+                <img src="./img/pacote2.png" class="img-responsive">
+              Pacote 2</a>
+            </div>
+            <div class="col-md-4 col-sm-6 pacote">
+              <a href="#" class="link-pacote" data-toggle="modal" data-target="#modalExemplo">
+                <img src="./img/pacote3.png" class="img-responsive">
+              Pacote 3</a>
+            </div>
+            <div class="col-md-4 col-sm-6 pacote">
+              <a href="#" class="link-pacote" data-toggle="modal" data-target="#modalExemplo">
+                <img src="./img/pacote4.png" class="img-responsive">
+              Pacote 4</a>
+            </div>
+            <div class="col-md-4 col-sm-6 pacote">
+              <a href="#" class="link-pacote" data-toggle="modal" data-target="#modalExemplo">
+                <img src="./img/pacote5.png" class="img-responsive">
+              Pacote 5</a>
+            </div>
+            <div class="col-md-4 col-sm-6 pacote">
+              <a href="#" class="link-pacote" data-toggle="modal" data-target="#modalExemplo">
+                <img src="./img/pacote6.png" class="img-responsive">
+              Pacote 6</a>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        JFK - Todos os direitos reservados.
+      </footer>
+
+      <!-- JavaScript (Opcional) -->
+      <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -1,0 +1,56 @@
+body {
+  background: url(./img/background.png);
+  background-attachment: fixed;
+}
+
+#carouselExampleIndicators .carousel-inner, #carouselExampleIndicators .carousel-item {
+  height: 95vh;
+}
+.carousel-caption h2 {
+  font-size: 50px;
+  font: bold;
+  color: #fff;
+  background-color: rgba(118, 114, 114, 0.408);
+  border-radius: 5px;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+}
+
+.pacote {
+  text-align: center;
+}
+
+.pacote img {
+  max-width: 100%;
+  margin-top: 20px;
+  border: 2px solid rgb(150, 150, 150,);
+}
+
+.pacote img:hover {
+  border: 2px solid #000;
+}
+
+a.link-pacote {
+  color: black;;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+}
+
+a.link-pacote:hover {
+  color: rgb(128, 14, 14);
+}
+
+footer {
+  margin-top: 15px;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  line-height: 60px;
+  background-color: rgb(52, 58, 64);
+  color: #fff;
+  font-size: 20px;
+}
