@@ -3,11 +3,21 @@ body {
   background-attachment: fixed;
 }
 
-#carouselExampleIndicators .carousel-inner, #carouselExampleIndicators .carousel-item {
+.container-fluid {
+  padding: 0;
+}
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item {
   height: 95vh;
 }
-.carousel-caption h2 {
+
+#mainSlider .carousel-caption {
+  top: 50%;
+}
+
+#mainSlider .carousel-caption h2 {
   font-size: 50px;
+  margin-bottom: 30px;
   font: bold;
   color: #fff;
   background-color: rgba(118, 114, 114, 0.408);
